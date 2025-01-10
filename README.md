@@ -23,7 +23,7 @@ To run the program:
 1. Create a .env file with a string TG_TOKEN=%Your Telegram bot token% inside the svg-spacy-bot directory. To create a new TG bot and receive its token use @BotFather Telegram bot. 
 2. Open CMD in the svg-spacy-bot directory
 3. Run the command "python -m venv venv" to create a virtual environment
-4. Run the command "venv\Scripts\activate.bat" to activate a virtual environment
+4. Run the command "venv\Scripts\activate.bat" to activate the virtual environment
 5. Run "pip install -r requirements.txt" to install the package dependencies
 6. Run the command "python main.py"
 
