@@ -9,12 +9,14 @@ Used libraries:
 1. telebot (for Telegram bot logic)
 2. cairo (for SVG generation and converting SVG pictures to PNG)
 3. spacy (for getting syntactic dependencies)
+   
 All the used libraries are listed in the requirements.txt file.
 
 main.py includes the Telegram bot launch and its methods such as a welcoming message and message answer logic.
 svg_generator.py includes 
   - a method for collecting syntactic dependencies (get_dependencies_for_text method)
   - a method for generating syntactic dependency scheme picture using cairo library (generate_svg_for_dep_dict)
+    
 More detailed information can be found inside the mentioned scripts.
 
 To run the program:
